@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+
+        <EditText
+            android:id="@+id/edt_text"
+            style="@style/board_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/board_3"
+            android:gravity="top"
+            android:hint="@string/edt_text_hint"
+            android:inputType="text|textAutoCorrect|textMultiLine|textLongMessage"
+            android:lines="5"
+            android:minLines="3" />
+
+        <Button
+            android:id="@+id/btn_speech"
+            android:layout_width="@dimen/teacher_size"
+            android:layout_height="@dimen/teacher_size"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/ic_teacher_animated" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/lsvMessages"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+
+</LinearLayout>

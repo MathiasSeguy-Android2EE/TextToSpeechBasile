@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="translucent_white">#99FFFFFF</color>
+    <color name="translucent_blue">#590000FF</color>
+    <color name="board_text_color">#FFFFFFFF</color>
+    <color name="board_color">#FF000000</color>
+    <color name="shadow_color">#FF999999</color>
+
+</resources>

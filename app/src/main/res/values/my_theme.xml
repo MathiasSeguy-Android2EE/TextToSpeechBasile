@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Style for Title -->
+    <!-- ************************ -->
+    <style name="board_text">
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">@dimen/paddingLeft</item>
+        <item name="android:paddingRight">@dimen/paddingRight</item>
+        <item name="android:paddingTop">@dimen/paddingVert</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowColor">@color/shadow_color</item>
+        <item name="android:textColor">@color/board_text_color</item>
+    </style>
+
+</resources>

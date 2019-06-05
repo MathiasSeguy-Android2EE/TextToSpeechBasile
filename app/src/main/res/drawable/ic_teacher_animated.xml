@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selected"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/teacher_0"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/teacher"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/teacher_1"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/teacher_2"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/teacher_1"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/teacher_0"
+        android:duration="50"/>
+
+</animation-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- when focused -->
+    <item android:drawable="@color/translucent_blue" android:state_focused="true"/>
+    <!-- when pressed -->
+    <item android:drawable="@color/translucent_blue" android:state_pressed="true"/>
+    <!-- when normal -->
+    <item android:drawable="@color/translucent_white"/>
+
+</selector>

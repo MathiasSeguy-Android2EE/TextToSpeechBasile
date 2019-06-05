@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">J\'apprends à écrire</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Bonjour Mon Basilou</string>
+    <string name="edt_text_hint">Ecris ton texte ici mon chou et appuie sur le bonhomme, il le lira et le rajoutera à ta liste de mots.</string>
+    <string name="btn_speech">Parles</string>
+    <string name="txv_instruction">Ecris un mot et appuies sur le bouton Parle, tu verras ce qu\'il se passe :)</string>
+
+</resources>

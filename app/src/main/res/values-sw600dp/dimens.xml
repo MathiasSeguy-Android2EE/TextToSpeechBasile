@@ -1,0 +1,12 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="paddingVert">40dp</dimen>
+    <dimen name="paddingLeft">35dp</dimen>
+    <dimen name="paddingRight">30dp</dimen>
+    <dimen name="teacher_size">140dp</dimen>
+
+</resources>
